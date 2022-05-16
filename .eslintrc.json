@@ -1,0 +1,7 @@
+{
+  "root": true,
+  "extends": [
+    "@reavail/eslint-config/eslint-preset-next",
+    "next/core-web-vitals"
+  ]
+}

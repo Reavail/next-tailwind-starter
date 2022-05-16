@@ -1,0 +1,38 @@
+{
+  "name": "@reavail/next-tailwind-starter",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">14.0.0"
+  },
+  "dependencies": {
+    "clsx": "^1.1.1",
+    "next": "^12.1.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "tailwindcss": "^3.0.24"
+  },
+  "devDependencies": {
+    "@reavail/eslint-config": "^1.0.0",
+    "@reavail/typescript-config": "^1.0.0",
+    "@types/node": "^17.0.30",
+    "@types/react": "^18.0.8",
+    "@types/react-dom": "^18.0.3",
+    "autoprefixer": "^10.4.7",
+    "eslint": "^8.15.0",
+    "next-transpile-modules": "^9.0.0",
+    "postcss": "^8.4.12",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-nesting": "^10.1.4",
+    "postcss-preset-env": "^7.4.4",
+    "typescript": "^4.6.4"
+  }
+}

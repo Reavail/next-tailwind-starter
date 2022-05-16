@@ -1,0 +1,23 @@
+{
+  "extends": "@reavail/typescript-config/nextjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@pages/*": ["pages/*"],
+      "@components/*": ["src/components/*"],
+      "@contexts/*": ["src/contexts/*"],
+      "@hooks/*": ["src/hooks/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@styles/*": ["src/styles/*"],
+      "@utils/*": ["src/utils/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ],
+  "exclude": ["node_modules"]
+}

@@ -1,0 +1,13 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
